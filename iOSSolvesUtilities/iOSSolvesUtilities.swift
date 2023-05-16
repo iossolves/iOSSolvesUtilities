@@ -51,6 +51,7 @@ Given an integer array nums,
 
  print("\(subArrayHavingMaxSum) = \(maxSum)")
  
+ 
  */
 
 
@@ -60,10 +61,9 @@ struct RangeAndBigSum {
     let bigSum: Int
 }
 
-
 extension Array where Element== Int {
     
-    public func contiguousSubArrayWithMaxSum(inCollection collection: [Int]) -> (contigousSubArray: [Int], maxSum: Int){
+    public func contiguousSubArrayWithMaxSum(inCollection collection: [Int]) -> (contigousSubArray: [Int], maxSum: Int) {
         
         var sumsArr: [RangeAndBigSum] = []
         
