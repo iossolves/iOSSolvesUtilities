@@ -18,6 +18,8 @@
 		AAB951042A13546700E77FD2 /* iOSSolvesUtilities_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB951032A13546700E77FD2 /* iOSSolvesUtilities_iOSTests.swift */; };
 		AAB951052A13546700E77FD2 /* iOSSolvesUtilities_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB950F72A13546600E77FD2 /* iOSSolvesUtilities_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AAB9510D2A1354F100E77FD2 /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAB9510C2A1354F100E77FD2 /* Info-iOS.plist */; };
+		AAB951152A1368FF00E77FD2 /* iOSSolvesUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB950D12A134D6000E77FD2 /* iOSSolvesUtilities.swift */; };
+		AAB951162A1368FF00E77FD2 /* iOSSolvesUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB950D12A134D6000E77FD2 /* iOSSolvesUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -338,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB951152A1368FF00E77FD2 /* iOSSolvesUtilities.swift in Sources */,
 				AAB950F92A13546600E77FD2 /* iOSSolvesUtilities_iOS.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB951162A1368FF00E77FD2 /* iOSSolvesUtilities.swift in Sources */,
 				AAB951042A13546700E77FD2 /* iOSSolvesUtilities_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,6 +637,7 @@
 		AAB951082A13546700E77FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -648,6 +653,7 @@
 		AAB951092A13546700E77FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
