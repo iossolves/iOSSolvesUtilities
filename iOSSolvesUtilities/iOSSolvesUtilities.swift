@@ -43,7 +43,7 @@ Given an integer array numbers,
  which has the largest sum and return its sum.
  Ex :[-2, 4,-1,2,1, 1,-3,-5,4]
  
- Ans. Explanation [4,-1,2,1] has the largest sum =6
+ Ans. Explanation [4,-1,2,1] has the largest sum = 6
 
  let collection = [5,4,-1,7,8]
  let subArrayHavingMaxSum = collection.contiguousSubArrayWithMaxSum(inCollection: collection).contigousSubArray
