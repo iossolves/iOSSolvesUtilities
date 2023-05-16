@@ -1,0 +1,6 @@
+framework module iOSSolvesUtilities_iOS {
+  umbrella header "iOSSolvesUtilities_iOS.h"
+
+  export *
+  module * { export * }
+}
