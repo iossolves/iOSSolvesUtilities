@@ -22,11 +22,15 @@ import Foundation
 @dynamicCallable
 public struct Adder {
     
-    func dynamicallyCall(withArguments args: [Int]) -> Int {
+    public init() {
+        // Intentionally left blank
+    }
+    
+    public func dynamicallyCall(withArguments args: [Int]) -> Int {
         return args.reduce(0, +)
     }
     
-    func dynamicallyCall(withKeywordArguments args: KeyValuePairs<String, Int>) -> Int {
+    public func dynamicallyCall(withKeywordArguments args: KeyValuePairs<String, Int>) -> Int {
         return args.reduce(0) { $0 + $1.value }
     }
 }
