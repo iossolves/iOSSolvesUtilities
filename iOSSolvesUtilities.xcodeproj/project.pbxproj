@@ -75,8 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				AAB950BA2A134CD200E77FD2 /* iOSSolvesUtilities.h */,
-				AAB950BB2A134CD200E77FD2 /* iOSSolvesUtilities.docc */,
 				AAB950D12A134D6000E77FD2 /* iOSSolvesUtilities.swift */,
+				AAB950BB2A134CD200E77FD2 /* iOSSolvesUtilities.docc */,
 			);
 			path = iOSSolvesUtilities;
 			sourceTree = "<group>";
