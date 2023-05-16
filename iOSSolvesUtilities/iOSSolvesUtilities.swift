@@ -38,7 +38,7 @@ public struct Adder {
 
 /*
 
-Given an integer array nums,
+Given an integer array numbers,
  find the contiguous subarray (containing at least one number)
  which has the largest sum and return its sum.
  Ex :[-2, 4,-1,2,1, 1,-3,-5,4]
